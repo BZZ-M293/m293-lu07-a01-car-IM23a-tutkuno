@@ -3,12 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <title>Fahrzeug-Konfigurator</title>
-
 </head>
 <body>
-
 <h1>Fahrzeug-Konfigurator</h1>
-
-
+  <form action="https://it.bzz.ch/demo/formdata/index.php" method="post">
+    <fieldset>
+    <legend> Fahrzeugmodell:</legend>
+      <label for="fahrzeugmodell">Fahrzeugmodell:</label>
+        <select name="fahrzeugmodell" id="fahrzeugmodell">
+          <option label="A">A</option>
+          <option label="B">B</option>
+          <option label="C">C</option>
+          <option label="D">D</option>
+          <option label="E">E</option>
+          <option label="F">F</option>
+          <option label="G">G</option>
+          <option label="H">H</option>
+          <option label="I">I</option>
+          <option label="J">J</option>
+          <option label="K">K</option>
+          <option label="L">L</option>
+          <option label="M">M</option>
+          <option label="N">N</option>
+          <option label="O">O</option>
+          <option label="P">P</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>Lackfarbe:</legend>
+        <label for="Rot">Rot</label>
+        <input type="radio" name="lackfarbe" value="Rot" id="Rot">
+        <label for="Blau">Blau</label>
+        <input type="radio" name="lackfarbe" value="Blau" id="Blau">
+        <label for="Grün">Grün</label>
+        <input type="radio" name="lackfarbe" value="Grün" id="Grün">
+        <label for="Schwarz">Schwarz</label>
+        <input type="radio" name="lackfarbe" value="Schwarz" id="Schwarz">
+    </fieldset>
+    <fieldset>
+      <button type="submit">Submit</button>
+    </fieldset>
+  </form>
 </body>
 </html>
